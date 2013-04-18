@@ -1,0 +1,103 @@
+
+.header-container{
+    @include clearfix;
+    @include container;
+    margin-bottom:10px;
+    overflow:visible;
+    .site-title{
+        background: url('../images/logo_anchordeck.png') no-repeat 0 5px;
+        padding:5px 0 0 45px;
+        font-family: $serifFontFamily;
+        font-size:32px;
+        line-height:32px;
+        float:left;
+        position:relative;
+        a{
+            color: $grayDarker;
+            text-decoration:none;
+            .sub-title{
+                font-family: $subFontFamily;
+                font-size:12px;
+                line-height:12px;
+                margin-top:-2px;
+                display:block;
+                text-align:center;
+                text-transform:lowercase;
+            }
+        }
+
+    }
+    .profile{
+        float:right;
+        background:$grayLighter;
+        @include border-radius(0 0 $dropRadius $dropRadius);
+        @include box-shadow(rgba($black, 0.3) 0 1px 2px);
+        overflow:visible;
+        &>ul{
+            list-style-type:none;
+            margin:0;
+            &>li{
+                float:left;
+                margin-left:8px;
+                position:relative;
+                a{
+                    padding:0 6px;
+                    text-decoration:none;
+                    color:$gray;
+                    display:block;
+                }
+                .sign-in, .account-link{
+                    padding:2px 6px;
+                    @include border-radius(0 0 $dropRadius 0);
+                    display:block;
+                    background-color:$grayLight;
+                    cursor:pointer;
+                    color:$gray;
+                }
+                .dropped{
+                    @include border-radius(0 0 0 0);
+                }
+                .dropdown{
+                    display:none;
+                     @include border-radius($dropRadius 0 $dropRadius $dropRadius);
+                     @include box-shadow(rgba($black, 0.3) 0 2px 3px);
+                    background:$grayLightest;
+                    border-top: 15px solid $grayLight;
+                    position:absolute;
+                    top:23px;
+                    right:0;
+                    z-index:1000;
+                    form{
+                        width:295px;
+                        padding:20px 20px 10px;
+                    }
+                    .block-list{
+                        list-style-type:none;
+                        margin:0;
+                        width:165px;
+                        li{
+                            text-align:right;
+                            border-top:1px solid $grayLight;
+                            a{
+                                i{
+                                    padding-left: 5px;
+                                }
+                                &:hover{
+                                    background-color:$grayLighter;
+                                }
+                            }
+                            &:last-child{
+                                a{
+                                    @include border-radius(0 0 $dropRadius $dropRadius);
+                                }
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* ======================================================= */

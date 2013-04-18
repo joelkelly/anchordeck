@@ -1,0 +1,102 @@
+// Susy Grid Values
+// -------------------------
+$total-columns: 12; // 12 columns
+$column-width: 4em; // columns are 4em wide
+$gutter-width: 1em; // with 1em gutters
+$grid-padding: 1em; // and 1em padding on the grid container
+
+
+// Grays
+// -------------------------
+$black:                 #000000 !default;
+$grayDarker:            #1f1f1f !default;
+$grayDark:              #292929 !default;
+$gray:                  #898989 !default;
+$grayLight:             #d2d2d2 !default;
+$grayLighter:           #ebebeb !default;
+$grayLightest:          #f3f3f3 !default;
+$white:                 #fff !default;
+
+$wellBackground:        $grayLightest;
+
+// Accent colors
+// -------------------------
+$blue:                  #049cdb !default;
+$blueDark:              #0064cd !default;
+$green:                 #46a546 !default;
+$red:                   #9d261d !default;
+$yellow:                #ffc40d !default;
+$orange:                #f89406 !default;
+$pink:                  #c3325f !default;
+$purple:                #7a43b6 !default;
+
+
+$offWhite:              #ebe8e3 !default;
+
+// Links
+// -------------------------
+$linkColor:             #08c !default;
+$linkColorHover:        darken($linkColor, 15%) !default;
+
+
+// Typography
+// -------------------------
+
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans|Lobster|Montserrat);
+$sansFontFamily:        'Droid Sans', Helvetica, sans-serif;
+$serifFontFamily:       'Lobster', Georgia, "Times New Roman", Times, serif !default;
+$subFontFamily:         'Montserrat', Arial;
+$monoFontFamily:        Monaco, Menlo, Consolas, "Courier New", monospace !default;
+
+$baseFontSize:          12px !default;
+$baseFontFamily:        $sansFontFamily !default;
+$baseLineHeight:        19px !default;
+$altFontFamily:         $serifFontFamily !default;
+
+$headingsFontFamily:    inherit !default; // empty to use BS default, $baseFontFamily
+$headingsFontWeight:    400 !default;    // instead of browser default, bold
+$headingsColor:         inherit !default; // empty to use BS default, $textColor
+
+
+// Component sizing
+// -------------------------
+// Based on 14px font-size and 20px line-height
+
+$fontSizeLarge:         $baseFontSize * 1.25; // ~18px
+$fontSizeSmall:         $baseFontSize * 0.85; // ~12px
+$fontSizeMini:          $baseFontSize * 0.75; // ~11px
+
+$paddingLarge:          11px 19px !default; // 44px
+$paddingSmall:          2px 10px !default;  // 26px
+$paddingMini:           0px 6px !default;   // 22px
+
+$baseBorderRadius:      5px !default;
+$borderRadiusLarge:     10px !default;
+$borderRadiusSmall:     3px !default;
+$dropRadius:            6px;
+
+// Input placeholder text color
+// -------------------------
+$placeholderText:         $grayLight !default;
+
+
+// Hr border color
+// -------------------------
+$hrBorder:                $grayLighter !default;
+
+// Horizontal forms & lists
+// -------------------------
+$horizontalComponentOffset:       180px !default;
+
+// Header
+// -------------------------
+$header-height: 40px;
+$header-background: $grayDark;
+
+// Main
+// -------------------------
+$main-background: $white;
+
+// Breakpoints
+// -------------------------
+$tablet-break: 360px;

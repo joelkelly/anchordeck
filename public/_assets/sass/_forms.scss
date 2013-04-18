@@ -1,0 +1,47 @@
+form{
+    ul{
+        list-style-type:none;
+        margin:0;
+        li{
+            @include clearfix;
+            margin-bottom:4px;
+            label{
+                display:inline-block;
+                text-align:right;
+                width:80px;
+                padding:3px 5px 3px 0;
+            }
+            select,
+            input[type="text"],
+            input[type="password"],
+            input[type="datetime"],
+            input[type="datetime-local"],
+            input[type="date"],
+            input[type="month"],
+            input[type="time"],
+            input[type="week"],
+            input[type="number"],
+            input[type="email"],
+            input[type="url"],
+            input[type="search"],
+            input[type="tel"],
+            input[type="color"]{
+                display:inline-block;
+                @include border-radius($baseBorderRadius);
+                padding:3px 5px;
+            }
+            &.row-inline{
+                padding-left:85px;
+                label{
+                    text-align:left;
+                    padding:3px 5px;
+                    width:auto;
+                }
+            }
+        }
+    }
+    button{
+        float:right;
+    }
+}
+

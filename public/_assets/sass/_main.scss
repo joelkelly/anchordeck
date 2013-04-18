@@ -1,0 +1,37 @@
+body{
+   background-color: $white;
+   font-family: $baseFontFamily;
+   font-size:$baseFontSize;
+   line-height: $baseLineHeight;
+   letter-spacing: 0.08em;
+   background:url('../images/debut_light_@2x.png');
+   @include background-size(200px);
+}
+
+button{
+    // @include sassy-button(gradient-style, border-radius, font-size, first-color, second-color, text-color, text-style, auto-states)
+    @include sassy-button("matte", 5px, 12px, $grayLighter, $grayLight, #444, "inset");
+    padding:4px 10px;
+    [class^="icon-"],
+    [class*=" icon-"] {
+      margin:0 4px;
+    }
+}
+
+.main-container{
+    @include clearfix();
+    @include container;
+    .main-content{
+        @include span-columns(12,12);
+        .main-well{
+          @include clearfix;
+          @extend %well;
+        }
+    }
+    .main-login{
+      display:block;
+      width:320px;
+      margin:0 auto;
+    }
+}
+/* ======================================================= */

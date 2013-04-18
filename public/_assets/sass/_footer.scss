@@ -1,0 +1,12 @@
+
+.footer-container{
+    @include clearfix;
+    @include container;
+    padding-top:10px;
+    .copyright{
+        color:$gray;
+        float:right;
+    }
+}
+
+/* ======================================================= */

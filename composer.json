@@ -2,9 +2,7 @@
 	"require": {
 		"laravel/framework": "4.0.*",
 		"cartalyst/sentry": "2.0.*",
-		"intervention/image": "dev-master"
-	},
-	"require-dev":{
+		"intervention/image": "dev-master",
 		"way/generators": "dev-master"
 	},
 	"autoload": {

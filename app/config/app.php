@@ -114,6 +114,7 @@ return array(
 		'Illuminate\Workbench\WorkbenchServiceProvider',
 		'Cartalyst\Sentry\SentryServiceProvider',
 		'Intervention\Image\ImageServiceProvider',
+		'Way\Generators\GeneratorsServiceProvider'
 	),
 
 	/*

@@ -39,10 +39,9 @@
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="/_assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.2/jquery-ui.min.js"></script>
 
         <script src="/_assets/js/main.min.js"></script>
-        <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=xa-4ea5b0854e4240c7"></script>
+
         <script>
             var _gaq=[['_setAccount','XXXXXXXXX'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];

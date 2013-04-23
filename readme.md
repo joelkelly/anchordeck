@@ -6,14 +6,14 @@ A simple way for clients to be granted control of masthead creation. The idea is
 
 ## Rough Road Map
 
-- [x] User accounts with authentication
-- [x] Multiple file upload
-- [x] Upload queues
-- [x] Thumbnail creation (prior to upload)
-- [ ] Upload Progress (partial)
-- [ ] Managing uploads
-- [ ] Canvas/GD Library image manipulation
-- [ ] Download altered file
+- [x]User accounts with authentication
+- [x]Multiple file upload
+- [x]Upload queues
+- [x]Thumbnail creation (prior to upload)
+- [ ]Upload Progress (partial)
+- [ ]Managing uploads
+- [ ]Canvas/GD Library image manipulation
+- [ ]Download altered file
 
 
 

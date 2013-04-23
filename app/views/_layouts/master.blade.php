@@ -18,6 +18,7 @@
 
         <script src="/_assets/js/vendor/modernizr-2.6.2.min.js"></script>
     </head>
+
     <body class="home">
         <!--[if lt IE 7]>
             <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
@@ -38,9 +39,12 @@
 
 
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js"></script>
+
+
         <script>window.jQuery || document.write('<script src="/_assets/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
 
-        <script src="/_assets/js/main.min.js"></script>
+        <script src="/_assets/js/app.min.js"></script>
 
         <script>
             var _gaq=[['_setAccount','XXXXXXXXX'],['_trackPageview']];

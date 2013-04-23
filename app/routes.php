@@ -83,3 +83,5 @@ Route::post('account/settings', 'AccountSettingsController@postIndex');
 # Dashboard
 Route::get('account', 'AccountController@getIndex');
 
+# Uploads
+Route::post('/upload/post', 'UploadController@create');

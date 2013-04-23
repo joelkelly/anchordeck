@@ -2,7 +2,7 @@
 
 use Illuminate\Database\Migrations\Migration;
 
-class CreateUserFilesTable extends Migration {
+class CreateUserUploadsTable extends Migration {
 
     /**
      * Run the migrations.
@@ -11,7 +11,7 @@ class CreateUserFilesTable extends Migration {
      */
     public function up()
     {
-        Schema::create('user_files', function($table) {
+        Schema::create('user_uploads', function($table) {
             $table->increments('id');
             $table->integer('user_id')->unsigned();
 			$table->string('file_name');
@@ -26,7 +26,7 @@ class CreateUserFilesTable extends Migration {
      */
     public function down()
     {
-        Schema::drop('user_files');
+        Schema::drop('user_uploads');
     }
 
 }
